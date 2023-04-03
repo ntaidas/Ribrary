@@ -31,7 +31,7 @@ nav{
     margin: 0%;
     padding: 0%;
 }
-#display{
+#board{
     background:  rgb(133,94,66);
     grid-column-start: 2;
     grid-column-end: 8;
@@ -45,13 +45,13 @@ nav{
     padding: 2rem;
     
 }
-#display>div,
-#display>button{
+#board>div,
+#board>button{
     min-width: 400px;
 }
 
 #big_plus{
-    
+    min-width: 400px;
     font-size: 120px;
     color: rgba(1, 2, 3, 0.521);
     background-color: rgb(97, 67, 46);
@@ -66,7 +66,7 @@ nav{
     transition: 1s;
 }
 
-#add{
+#add_to_library{
     display:none;
     padding: 2rem;
     gap: 1rem;
@@ -83,7 +83,7 @@ nav{
 
 }
 
-#add>input{
+#add_to_library>input{
     height: 3rem;
     border-radius: 1rem;
     font-size: 2rem;
