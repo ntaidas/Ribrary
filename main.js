@@ -83,7 +83,6 @@ addBook.addEventListener('submit', (event) => {
   // add new card to board
   addCardToBoard(book);
   // clear and repopulate the board
-  populate();
 }, false);
 
 window.onload = function() {
